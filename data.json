@@ -284,5 +284,607 @@
       "Peacock",
       "Tubi"
     ]
+  },
+  {
+    "name": "Oppenheimer",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Dune",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Everything Everywhere All at Once",
+    "services": [
+      "Showtime",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Top Gun: Maverick",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Batman",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Tár",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Killers of the Flower Moon",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Barbie",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Poor Things",
+    "services": [
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Past Lives",
+    "services": [
+      "Showtime",
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "Maestro",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Nyad",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Saltburn",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Napoleon",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Priscilla",
+    "services": [
+      "Paramount+",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Holdovers",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "American Fiction",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Anatomy of a Fall",
+    "services": [
+      "Mubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Society of the Snow",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Zone of Interest",
+    "services": [
+      "Mubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "May December",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Monster",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "All of Us Strangers",
+    "services": [
+      "Hulu",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Dream Scenario",
+    "services": [
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "Beau Is Afraid",
+    "services": [
+      "Prime Video",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Bottoms",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Rotting in the Sun",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Humanist Vampire Seeking Consenting Suicidal Person",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Birth/Rebirth",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Talk to Me",
+    "services": [
+      "Prime Video",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Suitable Flesh",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "In a Violent Nature",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Late Night with the Devil",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Evil Dead Rise",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "M3GAN",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Nope",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Prey",
+    "services": [
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Barbarian",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Northman",
+    "services": [
+      "Prime Video",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Menu",
+    "services": [
+      "HBO Max",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Banshees of Inisherin",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Aftersun",
+    "services": [
+      "Mubi",
+      "Showtime"
+    ]
+  },
+  {
+    "name": "Women Talking",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Causeway",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Emancipation",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Tetris",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Sharper",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "The Elephant Whisperers",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "My Imaginary Country",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Argentina 1985",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Athena",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "RRR",
+    "services": [
+      "Netflix",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Irishman",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Roma",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Marriage Story",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Power of the Dog",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Don't Look Up",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Tick Tick Boom",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Beasts of No Nation",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Nimona",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "All Quiet on the Western Front",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Lost Daughter",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Malcolm & Marie",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Pieces of a Woman",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Mank",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Dig",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Finch",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "CODA",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Greyhound",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Cherry",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Palmer",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "The Tragedy of Macbeth",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Licorice Pizza",
+    "services": [
+      "Paramount+",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Spencer",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Last Night in Soho",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Father",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Judas and the Black Messiah",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Promising Young Woman",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Minari",
+    "services": [
+      "Prime Video",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Sound of Metal",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Borat Subsequent Moviefilm",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "One Night in Miami",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Boiling Point",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Drive My Car",
+    "services": [
+      "Mubi",
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Memoria",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Petite Maman",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Titane",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Worst Person in the World",
+    "services": [
+      "Mubi",
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Annette",
+    "services": [
+      "Prime Video",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Benedetta",
+    "services": [
+      "Mubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Compartment No. 6",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Quo Vadis Aida",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "A Hero",
+    "services": [
+      "Prime Video",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Flee",
+    "services": [
+      "Hulu",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Summer of Soul",
+    "services": [
+      "Hulu",
+      "Disney+"
+    ]
   }
 ]
