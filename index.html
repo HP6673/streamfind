@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StreamFind — Where to Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0a0a0f; --bg2: #111118; --bg3: #1a1a24; --surface: #1e1e2e;
+    --border: rgba(255,255,255,0.08); --border2: rgba(255,255,255,0.14);
+    --text: #f0eeff; --muted: #888899;
+    --accent: #7c6ff7; --accent2: #a594ff;
+    --gold: #f5c842; --teal: #3dd6b5; --green: #3dd68a; --red: #e04b4b;
+    --radius: 16px; --radius-sm: 10px;
+  }
+
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; overflow-x: hidden; }
+  .page { display: none; min-height: 100vh; }
+  .page.active { display: block; }
+
+  .stars {
+    position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(124,111,247,0.18) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 30% at 80% 20%, rgba(61,214,181,0.08) 0%, transparent 60%);
+  }
+
+  header { position: relative; z-index: 10; display: flex; justify-content: space-between; align-items: center; padding: 28px 48px; }
+  .logo { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 900; letter-spacing: -0.5px; }
+  .logo span { color: var(--accent2); }
+
+  .hero { position: relative; z-index: 10; text-align: center; padding: 80px 24px 60px; }
+  .hero-eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--teal); margin-bottom: 24px; }
+  .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(42px, 7vw, 80px); font-weight: 900; line-height: 1.05; letter-spacing: -2px; margin-bottom: 16px; }
+  .hero h1 em { font-style: italic; color: var(--accent2); }
+  .hero-sub { font-size: 17px; color: var(--muted); font-weight: 300; margin-bottom: 52px; }
+
+  .search-wrap { max-width: 640px; margin: 0 auto; position: relative; }
+  .search-wrap input {
+    width: 100%; padding: 22px 64px 22px 28px;
+    font-family: 'DM Sans', sans-serif; font-size: 17px;
+    background: var(--surface); border: 1.5px solid var(--border2);
+    border-radius: 60px; color: var(--text); outline: none;
+    transition: border-color .2s, box-shadow .2s;
+  }
+  .search-wrap input::placeholder { color: var(--muted); }
+  .search-wrap input:focus { border-color: var(--accent); box-shadow: 0 0 0 4px rgba(124,111,247,.15); }
+  .search-btn {
+    position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+    width: 48px; height: 48px; border-radius: 50%; background: var(--accent);
+    border: none; color: #fff; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: background .2s, transform .1s;
+  }
+  .search-btn:hover { background: var(--accent2); transform: translateY(-50%) scale(1.05); }
+
+  .results-section { position: relative; z-index: 10; max-width: 900px; margin: 0 auto; padding: 0 24px 80px; }
+  .results-label { font-size: 13px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 24px; font-weight: 500; }
+  .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+  .result-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 20px 20px; transition: border-color .2s, transform .15s; }
+  .result-card:hover { border-color: var(--border2); transform: translateY(-2px); }
+  .result-card .movie-name { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 700; margin-bottom: 14px; line-height: 1.25; }
+  .services-list { display: flex; flex-wrap: wrap; gap: 6px; }
+  .service-pill { font-size: 11px; font-weight: 600; letter-spacing: .5px; padding: 5px 11px; border-radius: 30px; background: rgba(124,111,247,.15); color: var(--accent2); border: 1px solid rgba(124,111,247,.25); white-space: nowrap; }
+
+  .browse-section { position: relative; z-index: 10; max-width: 1100px; margin: 0 auto; padding: 0 24px 100px; }
+  .section-title { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+  .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+  .all-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+  .all-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 16px 16px; cursor: pointer; transition: border-color .2s, background .2s; }
+  .all-card:hover { border-color: rgba(124,111,247,.4); background: var(--surface); }
+  .all-card .movie-name { font-size: 15px; font-weight: 500; margin-bottom: 10px; line-height: 1.3; }
+  .all-card .service-count { font-size: 12px; color: var(--muted); }
+  .divider { max-width: 1100px; margin: 20px auto 60px; border: none; border-top: 1px solid var(--border); position: relative; z-index: 10; }
+  .empty-state { text-align: center; padding: 60px 24px; color: var(--muted); }
+
+  .spinner { display: inline-block; width: 18px; height: 18px; border: 2px solid rgba(255,255,255,.15); border-top-color: var(--accent2); border-radius: 50%; animation: spin .7s linear infinite; vertical-align: middle; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-bar { text-align: center; padding: 60px; color: var(--muted); font-size: 15px; display: flex; align-items: center; justify-content: center; gap: 12px; }
+
+  /* ADMIN */
+  #admin-page { background: var(--bg); min-height: 100vh; padding: 48px 24px; }
+  .admin-header { max-width: 860px; margin: 0 auto 48px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+  .admin-title { font-family: 'Playfair Display', serif; font-size: 32px; font-weight: 900; }
+  .admin-title span { color: var(--gold); }
+  .back-btn { font-size: 14px; color: var(--muted); background: none; border: 1px solid var(--border2); padding: 8px 18px; border-radius: 30px; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: color .2s; }
+  .back-btn:hover { color: var(--text); }
+
+  .admin-card { max-width: 860px; margin: 0 auto 32px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 36px; }
+  .admin-card h2 { font-size: 18px; font-weight: 600; margin-bottom: 24px; display: flex; align-items: center; gap: 10px; }
+  .badge { font-size: 11px; border-radius: 20px; padding: 3px 10px; font-weight: 600; letter-spacing: .5px; text-transform: uppercase; }
+  .badge-gold { background: rgba(245,200,66,.15); color: var(--gold); border: 1px solid rgba(245,200,66,.3); }
+  .badge-teal { background: rgba(61,214,181,.15); color: var(--teal); border: 1px solid rgba(61,214,181,.3); }
+
+  label.field-label { display: block; font-size: 13px; font-weight: 500; color: var(--muted); margin-bottom: 8px; letter-spacing: .5px; text-transform: uppercase; }
+  input[type="text"].field-input, input[type="password"].field-input {
+    width: 100%; padding: 14px 18px; font-family: 'DM Sans', sans-serif; font-size: 15px;
+    background: var(--bg3); border: 1.5px solid var(--border); border-radius: var(--radius-sm);
+    color: var(--text); outline: none; transition: border-color .2s, box-shadow .2s; margin-bottom: 20px;
+  }
+  input[type="text"].field-input:focus, input[type="password"].field-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(124,111,247,.12); }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+  .services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: 10px; margin-bottom: 28px; }
+  .service-check { display: flex; align-items: center; gap: 10px; background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 11px 14px; cursor: pointer; transition: border-color .2s, background .2s; }
+  .service-check:hover { border-color: var(--border2); }
+  .service-check.checked { border-color: rgba(124,111,247,.5); background: rgba(124,111,247,.08); }
+  .service-check input[type="checkbox"] { accent-color: var(--accent); width: 16px; height: 16px; cursor: pointer; flex-shrink: 0; }
+  .service-check .svc-name { font-size: 13px; font-weight: 500; line-height: 1.2; }
+  .service-check .svc-icon { font-size: 18px; flex-shrink: 0; }
+
+  .select-all-row { display: flex; gap: 10px; margin-bottom: 14px; }
+  .select-all-row button { font-size: 12px; background: none; border: 1px solid var(--border2); color: var(--muted); padding: 5px 12px; border-radius: 20px; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: color .2s, border-color .2s; }
+  .select-all-row button:hover { color: var(--text); border-color: var(--accent); }
+
+  .submit-btn { width: 100%; padding: 16px; font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 700; background: var(--accent); color: #fff; border: none; border-radius: var(--radius-sm); cursor: pointer; transition: background .2s, transform .1s; display: flex; align-items: center; justify-content: center; gap: 10px; }
+  .submit-btn:hover { background: var(--accent2); }
+  .submit-btn:active { transform: scale(.99); }
+  .submit-btn:disabled { opacity: .5; cursor: not-allowed; }
+
+  .msg { padding: 12px 18px; border-radius: var(--radius-sm); font-size: 14px; margin-bottom: 20px; display: none; }
+  .msg.success { background: rgba(61,214,138,.12); color: var(--green); border: 1px solid rgba(61,214,138,.25); display: block; }
+  .msg.error { background: rgba(224,75,75,.12); color: var(--red); border: 1px solid rgba(224,75,75,.25); display: block; }
+  .msg.info { background: rgba(124,111,247,.12); color: var(--accent2); border: 1px solid rgba(124,111,247,.25); display: block; }
+
+  .csv-drop { border: 2px dashed var(--border2); border-radius: var(--radius-sm); padding: 36px 24px; text-align: center; cursor: pointer; transition: border-color .2s, background .2s; margin-bottom: 16px; position: relative; }
+  .csv-drop:hover, .csv-drop.drag-over { border-color: rgba(124,111,247,.5); background: rgba(124,111,247,.05); }
+  .csv-drop input[type="file"] { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+  .csv-drop .drop-icon { font-size: 36px; margin-bottom: 10px; }
+  .csv-drop .drop-text { font-size: 15px; color: var(--muted); }
+  .csv-drop .drop-hint { font-size: 12px; color: var(--muted); margin-top: 6px; opacity: .6; }
+
+  .manage-list { display: flex; flex-direction: column; gap: 10px; max-height: 400px; overflow-y: auto; padding-right: 4px; }
+  .manage-item { display: flex; align-items: center; justify-content: space-between; gap: 12px; background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px 16px; }
+  .manage-item-name { font-size: 14px; font-weight: 500; flex: 1; }
+  .manage-item-services { font-size: 12px; color: var(--muted); flex: 2; }
+  .del-btn { background: rgba(224,75,75,.1); border: 1px solid rgba(224,75,75,.2); color: var(--red); font-size: 12px; padding: 5px 12px; border-radius: 20px; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: background .2s; flex-shrink: 0; }
+  .del-btn:hover { background: rgba(224,75,75,.2); }
+
+  .config-status { display: flex; align-items: center; gap: 8px; font-size: 13px; padding: 10px 16px; border-radius: var(--radius-sm); margin-bottom: 20px; }
+  .config-status.ok { background: rgba(61,214,138,.1); color: var(--green); border: 1px solid rgba(61,214,138,.2); }
+  .config-status.warn { background: rgba(245,200,66,.1); color: var(--gold); border: 1px solid rgba(245,200,66,.2); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; flex-shrink: 0; }
+  code { background: rgba(255,255,255,.07); padding: 2px 7px; border-radius: 5px; font-size: 13px; font-family: monospace; color: var(--accent2); }
+
+  /* LOGIN */
+  #login-overlay { position: fixed; inset: 0; background: rgba(10,10,15,.92); backdrop-filter: blur(12px); display: flex; align-items: center; justify-content: center; z-index: 1000; }
+  .login-box { background: var(--surface); border: 1px solid var(--border2); border-radius: 24px; padding: 52px 48px; width: 100%; max-width: 420px; text-align: center; }
+  .login-icon { font-size: 40px; margin-bottom: 16px; }
+  .login-box h2 { font-family: 'Playfair Display', serif; font-size: 26px; margin-bottom: 8px; }
+  .login-box p { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+  .login-box input { width: 100%; padding: 14px 18px; font-family: 'DM Sans', sans-serif; font-size: 15px; background: var(--bg3); border: 1.5px solid var(--border); border-radius: var(--radius-sm); color: var(--text); outline: none; margin-bottom: 16px; transition: border-color .2s; text-align: center; letter-spacing: 3px; }
+  .login-box input:focus { border-color: var(--accent); }
+  .login-box button { width: 100%; padding: 14px; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 600; background: var(--accent); color: #fff; border: none; border-radius: var(--radius-sm); cursor: pointer; transition: background .2s; }
+  .login-box button:hover { background: var(--accent2); }
+  .login-error { color: var(--red); font-size: 13px; margin-top: 12px; display: none; }
+
+  @media (max-width: 600px) {
+    header { padding: 20px; }
+    .hero { padding: 60px 20px 40px; }
+    .admin-card { padding: 24px 20px; }
+    .login-box { padding: 36px 24px; }
+    .services-grid { grid-template-columns: repeat(2,1fr); }
+    .field-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div id="login-overlay" style="display:none;">
+  <div class="login-box">
+    <div class="login-icon">🔐</div>
+    <h2>Admin Access</h2>
+    <p>Enter the password to manage your library</p>
+    <input type="password" id="pw-input" placeholder="••••••••••" />
+    <button onclick="checkPassword()">Unlock</button>
+    <div class="login-error" id="login-error">Incorrect password. Try again.</div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div id="main-page" class="page active">
+  <div class="stars"></div>
+  <header><div class="logo">Stream<span>Find</span></div></header>
+  <section class="hero">
+    <p class="hero-eyebrow">✦ Find it in seconds</p>
+    <h1>Where can you<br><em>watch it?</em></h1>
+    <p class="hero-sub">Search any movie or show and discover every place to stream it.</p>
+    <div class="search-wrap">
+      <input type="text" id="search-input" placeholder="Search movies &amp; shows…" autocomplete="off" />
+      <button class="search-btn" onclick="doSearch()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+    </div>
+  </section>
+  <section class="results-section" id="results-section" style="display:none;">
+    <p class="results-label" id="results-label"></p>
+    <div class="results-grid" id="results-grid"></div>
+  </section>
+  <hr class="divider" />
+  <section class="browse-section">
+    <h2 class="section-title">All Titles</h2>
+    <p class="section-sub">Every movie and show in the library</p>
+    <div id="all-grid-wrap"><div class="loading-bar"><span class="spinner"></span> Loading library…</div></div>
+  </section>
+</div>
+
+<!-- ADMIN -->
+<div id="admin-page" class="page">
+  <div class="admin-header">
+    <div class="admin-title">Admin <span>Panel</span></div>
+    <button class="back-btn" onclick="goHome()">← Back to site</button>
+  </div>
+
+  <!-- GitHub Config -->
+  <div class="admin-card">
+    <h2>GitHub Configuration <span class="badge badge-teal">Storage</span></h2>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:20px;line-height:1.8;">
+      Data saves to <code>data.json</code> in your repo via the GitHub API.
+      Create a <strong style="color:var(--text);">Personal Access Token</strong> at
+      <a href="https://github.com/settings/tokens" target="_blank" style="color:var(--accent2);">github.com/settings/tokens</a>
+      → <em>Generate new token (classic)</em> → check <code>repo</code> scope.
+      Your token is stored only in this browser.
+    </p>
+    <div id="gh-status"></div>
+    <div class="field-row">
+      <div>
+        <label class="field-label">GitHub Username</label>
+        <input type="text" class="field-input" id="gh-user" placeholder="e.g. johnsmith" />
+      </div>
+      <div>
+        <label class="field-label">Repository Name</label>
+        <input type="text" class="field-input" id="gh-repo" placeholder="e.g. my-streaming-site" />
+      </div>
+    </div>
+    <label class="field-label">Personal Access Token</label>
+    <input type="password" class="field-input" id="gh-token" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" />
+    <label class="field-label">Branch</label>
+    <input type="text" class="field-input" id="gh-branch" placeholder="main" style="margin-bottom:24px;" />
+    <button class="submit-btn" onclick="saveGHConfig()" style="max-width:260px;">Save &amp; Test Connection</button>
+  </div>
+
+  <!-- Add -->
+  <div class="admin-card">
+    <h2>Add Movie / Show <span class="badge badge-gold">New</span></h2>
+    <div id="add-msg" class="msg"></div>
+    <label class="field-label">Title</label>
+    <input type="text" class="field-input" id="movie-name" placeholder="e.g. Oppenheimer" />
+    <label class="field-label" style="margin-bottom:14px;">Available On</label>
+    <div class="select-all-row">
+      <button onclick="checkAll(true)">Select all</button>
+      <button onclick="checkAll(false)">Clear all</button>
+    </div>
+    <div class="services-grid" id="services-grid"></div>
+    <button class="submit-btn" id="add-btn" onclick="addTitle()">Add to Library</button>
+  </div>
+
+  <!-- CSV -->
+  <div class="admin-card">
+    <h2>Bulk Import via CSV</h2>
+    <div id="csv-msg" class="msg"></div>
+    <div class="csv-drop" id="csv-drop">
+      <input type="file" id="csv-file" accept=".csv" onchange="handleCSV(this)" />
+      <div class="drop-icon">📄</div>
+      <div class="drop-text">Click or drag a CSV file here</div>
+      <div class="drop-hint">Column 1: Title &nbsp;|&nbsp; Column 2+: Streaming services</div>
+    </div>
+    <p style="font-size:12px;color:var(--muted);">Example row: <code>Inception, Netflix, HBO Max, Prime Video</code></p>
+  </div>
+
+  <!-- Manage -->
+  <div class="admin-card">
+    <h2>Manage Library</h2>
+    <div id="manage-msg" class="msg"></div>
+    <div class="manage-list" id="manage-list"></div>
+    <p id="manage-empty" style="color:var(--muted);font-size:14px;display:none;">No titles yet.</p>
+  </div>
+</div>
+
+<script>
+const ADMIN_PASS = "movieadmin786";
+const DATA_FILE  = "data.json";
+const GH_KEY     = "streamfind_gh";
+
+const SERVICES = [
+  {name:"Netflix",icon:"🎬"},{name:"Prime Video",icon:"📦"},{name:"Hulu",icon:"🟩"},
+  {name:"Disney+",icon:"⭐"},{name:"HBO Max",icon:"🎭"},{name:"Apple TV+",icon:"🍎"},
+  {name:"Peacock",icon:"🦚"},{name:"Paramount+",icon:"⛰️"},{name:"ESPN+",icon:"🏈"},
+  {name:"Discovery+",icon:"🔭"},{name:"Tubi",icon:"📺"},{name:"Pluto TV",icon:"🌙"},
+  {name:"Showtime",icon:"🎪"},{name:"Starz",icon:"✨"},{name:"Crunchyroll",icon:"🍜"},
+  {name:"Fubo TV",icon:"⚽"},{name:"AMC+",icon:"🎥"},{name:"Shudder",icon:"👻"},
+  {name:"BritBox",icon:"🇬🇧"},{name:"Acorn TV",icon:"🌰"},{name:"Mubi",icon:"🎞️"},
+  {name:"Criterion",icon:"🏆"},{name:"YouTube Premium",icon:"▶️"},{name:"Plex",icon:"🟡"},
+];
+
+// ---- CONFIG ----
+function cfg() { try { return JSON.parse(localStorage.getItem(GH_KEY))||{}; } catch { return {}; } }
+function saveCfg(c) { localStorage.setItem(GH_KEY, JSON.stringify(c)); }
+function ready() { const c=cfg(); return !!(c.user&&c.repo&&c.token&&c.branch); }
+
+// ---- GITHUB API ----
+async function ghGet(path) {
+  const c=cfg();
+  const r=await fetch(`https://api.github.com/repos/${c.user}/${c.repo}/contents/${path}?ref=${c.branch}`,
+    {headers:{Authorization:`token ${c.token}`,Accept:"application/vnd.github.v3+json"}});
+  if(r.status===404) return null;
+  if(!r.ok) throw new Error(`GitHub ${r.status}: ${r.statusText}`);
+  return r.json();
+}
+
+async function ghPut(path,data,sha,msg) {
+  const c=cfg();
+  const body={message:msg,content:btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2)))),branch:c.branch};
+  if(sha) body.sha=sha;
+  const r=await fetch(`https://api.github.com/repos/${c.user}/${c.repo}/contents/${path}`,{
+    method:"PUT",
+    headers:{Authorization:`token ${c.token}`,Accept:"application/vnd.github.v3+json","Content-Type":"application/json"},
+    body:JSON.stringify(body)
+  });
+  if(!r.ok){const e=await r.json().catch(()=>({})); throw new Error(e.message||`GitHub ${r.status}`);}
+  return r.json();
+}
+
+let _sha=null, _lib=[];
+
+async function fetchLib() {
+  if(!ready()) return [];
+  const f=await ghGet(DATA_FILE);
+  if(!f){_sha=null;return [];}
+  _sha=f.sha;
+  try { return JSON.parse(decodeURIComponent(escape(atob(f.content.replace(/\n/g,""))))) || []; }
+  catch { return []; }
+}
+
+async function writeLib(lib,msg) {
+  const r=await ghPut(DATA_FILE,lib,_sha,msg);
+  _sha=r.content.sha;
+}
+
+// ---- ROUTING ----
+function showPage(id) { document.querySelectorAll(".page").forEach(p=>p.classList.remove("active")); document.getElementById(id).classList.add("active"); }
+function isAdminURL() { return window.location.pathname.includes("/admin")||window.location.hash.includes("admin"); }
+
+function goHome() {
+  window.location.hash="";
+  showPage("main-page");
+  initMain();
+}
+
+// ---- LOGIN ----
+function showLogin(){document.getElementById("login-overlay").style.display="flex";}
+function hideLogin(){document.getElementById("login-overlay").style.display="none";}
+function checkPassword(){
+  if(document.getElementById("pw-input").value===ADMIN_PASS){
+    hideLogin();
+    document.getElementById("pw-input").value="";
+    document.getElementById("login-error").style.display="none";
+    showPage("admin-page");
+    initAdmin();
+  } else {
+    document.getElementById("login-error").style.display="block";
+    document.getElementById("pw-input").value="";
+    document.getElementById("pw-input").focus();
+  }
+}
+
+// ---- MAIN PAGE ----
+async function initMain(){
+  const wrap=document.getElementById("all-grid-wrap");
+  wrap.innerHTML=`<div class="loading-bar"><span class="spinner"></span> Loading library…</div>`;
+  try{_lib=await fetchLib(); renderBrowse();}
+  catch{wrap.innerHTML=`<div class="empty-state"><p>Could not load library. GitHub may not be configured yet.</p></div>`;}
+}
+
+function renderBrowse(){
+  const wrap=document.getElementById("all-grid-wrap");
+  if(!_lib.length){wrap.innerHTML=`<div class="empty-state"><p>No titles yet. Visit <strong style="color:var(--accent2)">/admin</strong> to add some.</p></div>`;return;}
+  wrap.innerHTML=`<div class="all-grid">${_lib.map(t=>`<div class="all-card" onclick="quickSearch('${ea(t.name)}')"><div class="movie-name">${eh(t.name)}</div><div class="service-count">${t.services.length} service${t.services.length!==1?"s":""}</div></div>`).join("")}</div>`;
+}
+
+function doSearch(){
+  const q=document.getElementById("search-input").value.trim().toLowerCase();
+  const sec=document.getElementById("results-section");
+  if(!q){sec.style.display="none";return;}
+  const hits=_lib.filter(t=>t.name.toLowerCase().includes(q));
+  sec.style.display="block";
+  document.getElementById("results-label").textContent=`${hits.length} result${hits.length!==1?"s":""} for "${q}"`;
+  document.getElementById("results-grid").innerHTML=hits.length
+    ?hits.map(t=>`<div class="result-card"><div class="movie-name">${eh(t.name)}</div><div class="services-list">${t.services.map(s=>`<span class="service-pill">${eh(s)}</span>`).join("")}</div></div>`).join("")
+    :`<div style="grid-column:1/-1;color:var(--muted);padding:32px;text-align:center;">Nothing found — try a different title.</div>`;
+}
+
+function quickSearch(n){document.getElementById("search-input").value=n;doSearch();window.scrollTo({top:0,behavior:"smooth"});}
+
+// ---- ADMIN ----
+function initAdmin(){
+  buildServices(); loadGHFields(); updateGHStatus(); loadManage(); setupDrop();
+}
+
+function loadGHFields(){
+  const c=cfg();
+  if(c.user)   document.getElementById("gh-user").value=c.user;
+  if(c.repo)   document.getElementById("gh-repo").value=c.repo;
+  if(c.token)  document.getElementById("gh-token").value=c.token;
+  document.getElementById("gh-branch").value=c.branch||"main";
+}
+
+function updateGHStatus(){
+  const el=document.getElementById("gh-status");
+  const c=cfg();
+  el.innerHTML=ready()
+    ?`<div class="config-status ok"><span class="dot"></span>Connected to <strong>${c.user}/${c.repo}</strong> — branch <code>${c.branch}</code></div>`
+    :`<div class="config-status warn"><span class="dot"></span>GitHub not configured — data won't be saved until you fill this in.</div>`;
+}
+
+async function saveGHConfig(){
+  const user=document.getElementById("gh-user").value.trim();
+  const repo=document.getElementById("gh-repo").value.trim();
+  const token=document.getElementById("gh-token").value.trim();
+  const branch=document.getElementById("gh-branch").value.trim()||"main";
+  if(!user||!repo||!token){alert("Please fill in all fields.");return;}
+  saveCfg({user,repo,token,branch});
+  try{
+    const r=await fetch(`https://api.github.com/repos/${user}/${repo}`,{headers:{Authorization:`token ${token}`,Accept:"application/vnd.github.v3+json"}});
+    if(!r.ok) throw new Error(`Status ${r.status}`);
+    updateGHStatus();
+    alert(`✅ Connected to ${user}/${repo}! Config saved.`);
+    loadManage();
+  } catch(e){ alert(`❌ Connection failed: ${e.message}\n\nCheck username, repo name, and token permissions.`); }
+}
+
+// ---- SERVICES ----
+function buildServices(){
+  document.getElementById("services-grid").innerHTML=SERVICES.map(s=>`
+    <label class="service-check" id="sc-${slug(s.name)}">
+      <input type="checkbox" value="${ea(s.name)}" onchange="toggleCk('${slug(s.name)}')" />
+      <span class="svc-icon">${s.icon}</span>
+      <span class="svc-name">${eh(s.name)}</span>
+    </label>`).join("");
+}
+function toggleCk(id){const el=document.getElementById("sc-"+id);el.classList.toggle("checked",el.querySelector("input").checked);}
+function checkAll(v){document.querySelectorAll(".service-check input").forEach(cb=>{cb.checked=v;cb.closest(".service-check").classList.toggle("checked",v);});}
+function getChecked(){return Array.from(document.querySelectorAll(".service-check input:checked")).map(cb=>cb.value);}
+
+// ---- ADD TITLE ----
+async function addTitle(){
+  const name=document.getElementById("movie-name").value.trim();
+  const svcs=getChecked();
+  const msgEl=document.getElementById("add-msg");
+  const btn=document.getElementById("add-btn");
+  if(!name) return showMsg(msgEl,"error","Please enter a title.");
+  if(!svcs.length) return showMsg(msgEl,"error","Select at least one streaming service.");
+  if(!ready()) return showMsg(msgEl,"error","GitHub is not configured. Fill in the GitHub Config section first.");
+  btn.disabled=true; btn.innerHTML=`<span class="spinner"></span> Saving to GitHub…`;
+  try{
+    const lib=await fetchLib();
+    const idx=lib.findIndex(t=>t.name.toLowerCase()===name.toLowerCase());
+    if(idx>=0){lib[idx].services=[...new Set([...lib[idx].services,...svcs])];await writeLib(lib,`Update "${name}"`);showMsg(msgEl,"success",`Updated "${name}" — merged services.`);}
+    else{lib.push({name,services:svcs});await writeLib(lib,`Add "${name}"`);showMsg(msgEl,"success",`"${name}" added and saved to GitHub ✓`);}
+    _lib=lib; document.getElementById("movie-name").value=""; checkAll(false); renderManage();
+  } catch(e){ showMsg(msgEl,"error",`Save failed: ${e.message}`); }
+  finally{ btn.disabled=false; btn.innerHTML="Add to Library"; }
+}
+
+// ---- MANAGE ----
+async function loadManage(){
+  const list=document.getElementById("manage-list");
+  const empty=document.getElementById("manage-empty");
+  if(!ready()){list.innerHTML="";empty.style.display="block";empty.textContent="Configure GitHub above to see your library.";return;}
+  list.innerHTML=`<div class="loading-bar"><span class="spinner"></span> Loading…</div>`;
+  empty.style.display="none";
+  try{_lib=await fetchLib();renderManage();}
+  catch(e){list.innerHTML=`<div style="color:var(--red);font-size:14px;">Could not load: ${e.message}</div>`;}
+}
+
+function renderManage(){
+  const list=document.getElementById("manage-list");
+  const empty=document.getElementById("manage-empty");
+  if(!_lib.length){list.innerHTML="";empty.style.display="block";empty.textContent="No titles in library yet.";return;}
+  empty.style.display="none";
+  list.innerHTML=_lib.map((t,i)=>`
+    <div class="manage-item">
+      <div class="manage-item-name">${eh(t.name)}</div>
+      <div class="manage-item-services">${t.services.join(", ")}</div>
+      <button class="del-btn" onclick="deleteTitle(${i})">Remove</button>
+    </div>`).join("");
+}
+
+async function deleteTitle(i){
+  const name=_lib[i]?.name;
+  if(!confirm(`Remove "${name}" from the library?`)) return;
+  const msgEl=document.getElementById("manage-msg");
+  try{
+    _lib.splice(i,1);
+    await writeLib(_lib,`Remove "${name}"`);
+    renderManage();
+    showMsg(msgEl,"success",`"${name}" removed and saved to GitHub ✓`);
+  } catch(e){ showMsg(msgEl,"error",`Failed: ${e.message}`); }
+}
+
+// ---- CSV ----
+function setupDrop(){
+  const d=document.getElementById("csv-drop");
+  if(!d) return;
+  d.addEventListener("dragover",e=>{e.preventDefault();d.classList.add("drag-over");});
+  d.addEventListener("dragleave",()=>d.classList.remove("drag-over"));
+  d.addEventListener("drop",e=>{e.preventDefault();d.classList.remove("drag-over");if(e.dataTransfer.files[0])processCSV(e.dataTransfer.files[0]);});
+}
+function handleCSV(inp){if(inp.files[0])processCSV(inp.files[0]);}
+
+async function processCSV(file){
+  const msgEl=document.getElementById("csv-msg");
+  if(!file.name.toLowerCase().endsWith(".csv")) return showMsg(msgEl,"error","Please upload a .csv file.");
+  if(!ready()) return showMsg(msgEl,"error","Configure GitHub first.");
+  showMsg(msgEl,"info","Parsing CSV…");
+  const text=await file.text();
+  const lines=text.split(/\r?\n/).filter(l=>l.trim());
+  let added=0,updated=0,skipped=0;
+  let lib;
+  try{lib=await fetchLib();}
+  catch(e){return showMsg(msgEl,"error",`Fetch failed: ${e.message}`);}
+  lines.forEach(line=>{
+    const cols=line.split(",").map(c=>c.trim());
+    const name=cols[0]; if(!name||cols.length<2){skipped++;return;}
+    const svcs=cols.slice(1).filter(Boolean); if(!svcs.length){skipped++;return;}
+    const idx=lib.findIndex(t=>t.name.toLowerCase()===name.toLowerCase());
+    if(idx>=0){lib[idx].services=[...new Set([...lib[idx].services,...svcs])];updated++;}
+    else{lib.push({name,services:svcs});added++;}
+  });
+  try{
+    showMsg(msgEl,"info","Saving to GitHub…");
+    await writeLib(lib,`Bulk import: +${added} added, ${updated} updated`);
+    _lib=lib; renderManage();
+    const parts=[added&&`${added} added`,updated&&`${updated} updated`,skipped&&`${skipped} skipped`].filter(Boolean);
+    showMsg(msgEl,"success","Import complete: "+parts.join(", ")+". Saved to GitHub ✓");
+  } catch(e){showMsg(msgEl,"error",`Parse OK but save failed: ${e.message}`);}
+  document.getElementById("csv-file").value="";
+}
+
+// ---- UTILS ----
+function showMsg(el,type,text){el.className="msg "+type;el.textContent=text;if(type!=="info")setTimeout(()=>{el.className="msg";},7000);}
+function eh(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function ea(s){return String(s).replace(/'/g,"\\'");}
+function slug(s){return s.toLowerCase().replace(/[^a-z0-9]/g,"-");}
+
+// ---- BOOT ----
+document.addEventListener("DOMContentLoaded",()=>{
+  document.getElementById("pw-input").addEventListener("keydown",e=>{if(e.key==="Enter")checkPassword();});
+  document.getElementById("search-input").addEventListener("keydown",e=>{if(e.key==="Enter")doSearch();});
+  window.addEventListener("hashchange",()=>{
+    if(window.location.hash.includes("admin")) showLogin();
+    else{showPage("main-page");initMain();}
+  });
+  if(isAdminURL()) showLogin();
+  else initMain();
+});
+</script>
+</body>
+</html>
