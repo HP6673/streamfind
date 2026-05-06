@@ -1560,7 +1560,8 @@
     "name": "Se7en",
     "services": [
       "Tubi",
-      "Pluto TV"
+      "Pluto TV",
+      "Prime Video"
     ]
   },
   {
@@ -1656,7 +1657,9 @@
   {
     "name": "Good Time",
     "services": [
-      "Netflix"
+      "Netflix",
+      "Tubi",
+      "Mubi"
     ]
   },
   {
@@ -1898,6 +1901,622 @@
   },
   {
     "name": "Benny's Video",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Blade Runner 2049",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Dunkirk",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "1917",
+    "services": [
+      "Prime Video",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Joker",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Once Upon a Time in Hollywood",
+    "services": [
+      "Netflix",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Knives Out",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Glass Onion",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Lighthouse",
+    "services": [
+      "Prime Video",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Hereditary",
+    "services": [
+      "Prime Video",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Midsommar",
+    "services": [
+      "Prime Video",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Us",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Doctor Sleep",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "It Chapter Two",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "A Quiet Place",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "A Quiet Place Part II",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Bird Box",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Platform",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Vivarium",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "His House",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Possessor",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Saint Maud",
+    "services": [
+      "Shudder",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Night Eats the World",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Relic",
+    "services": [
+      "Shudder",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Wailing",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Tigers Are Not Afraid",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Synchronic",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Color Out of Space",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Invisible Man",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Underwater",
+    "services": [
+      "Tubi",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Come to Daddy",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Spree",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Psycho Goreman",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Rental",
+    "services": [
+      "Hulu",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Host",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Dashcam",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Black Phone",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Smile",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Scream",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Scream VI",
+    "services": [
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "Halloween Ends",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "X",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Pearl",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Crimes of the Future",
+    "services": [
+      "Hulu",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Jackass Forever",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Unbearable Weight of Massive Talent",
+    "services": [
+      "Starz",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Lost City",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Bullet Train",
+    "services": [
+      "Starz",
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Amsterdam",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Babylon",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Tar",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Confess Fletch",
+    "services": [
+      "Tubi",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Vengeance",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Banshees of Inisherin",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Sharp Stick",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Emily the Criminal",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Resurrection",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Watcher",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Cow Who Sang a Song Into the Future",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Nanny",
+    "services": [
+      "Prime Video",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Flux Gourmet",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Slash/Back",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Prey for the Devil",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Significant Other",
+    "services": [
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "Torn Hearts",
+    "services": [
+      "Paramount+",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Sissy",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Deadstream",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Glorious",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Appendage",
+    "services": [
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Run Rabbit Run",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Enys Men",
+    "services": [
+      "Mubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Skinamarink",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Devil Conspiracy",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Missing",
+    "services": [
+      "Netflix",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Plane",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Luther: The Fallen Sun",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Covenant",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Sisu",
+    "services": [
+      "Prime Video",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Air",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "BlackBerry",
+    "services": [
+      "Prime Video",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Strays",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Asteroid City",
+    "services": [
+      "Prime Video",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Elemental",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Across the Spider-Verse",
+    "services": [
+      "Netflix",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Indiana Jones and the Dial of Destiny",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Mission Impossible Dead Reckoning",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Blue Beetle",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Gran Turismo",
+    "services": [
+      "Netflix",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Creator",
+    "services": [
+      "Disney+",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Dumb Money",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Rustin",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Cassandro",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Burial",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Radical",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Passages",
     "services": [
       "Mubi"
     ]
