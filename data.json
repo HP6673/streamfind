@@ -143,5 +143,146 @@
       "Tubi",
       "Pluto TV"
     ]
+  },
+  {
+    "name": "The Departed",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "No Country for Old Men",
+    "services": [
+      "Netflix",
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "There Will Be Blood",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Whiplash",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "La La Land",
+    "services": [
+      "Netflix",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Mad Max: Fury Road",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Grand Budapest Hotel",
+    "services": [
+      "Disney+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Parasite",
+    "services": [
+      "Hulu",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Get Out",
+    "services": [
+      "Peacock",
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "A Beautiful Mind",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Cast Away",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Truman Show",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Catch Me If You Can",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Django Unchained",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Revenant",
+    "services": [
+      "Hulu",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Arrival",
+    "services": [
+      "Paramount+",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Black Panther",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "The Social Network",
+    "services": [
+      "Netflix",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "American History X",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Saving Private Ryan",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
   }
 ]
