@@ -886,5 +886,665 @@
       "Hulu",
       "Disney+"
     ]
+  },
+  {
+    "name": "Heat",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Chinatown",
+    "services": [
+      "Paramount+",
+      "Pluto TV",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Apocalypse Now",
+    "services": [
+      "Netflix",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Full Metal Jacket",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "2001: A Space Odyssey",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "A Clockwork Orange",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Eyes Wide Shut",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Barry Lyndon",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "The Shining",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Dr. Strangelove",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Lawrence of Arabia",
+    "services": [
+      "Starz",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Raging Bull",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Taxi Driver",
+    "services": [
+      "Starz",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Mean Streets",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Serpico",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Dog Day Afternoon",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Network",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "All the Presidents Men",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Midnight Cowboy",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Butch Cassidy and the Sundance Kid",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The French Connection",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Papillon",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Cool Hand Luke",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Bonnie and Clyde",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Easy Rider",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "One Flew Over the Cuckoos Nest",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Conversation",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Badlands",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Nashville",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "McCabe and Mrs. Miller",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Last Picture Show",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Five Easy Pieces",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Klute",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Deliverance",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Dirty Harry",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Blazing Saddles",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Young Frankenstein",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Annie Hall",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Manhattan",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Stardust Memories",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Hannah and Her Sisters",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Crimes and Misdemeanors",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Purple Rose of Cairo",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Zelig",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Husbands and Wives",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Blue Jasmine",
+    "services": [
+      "Prime Video",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Match Point",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Vicky Cristina Barcelona",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Midnight in Paris",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Mulholland Drive",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Blue Velvet",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Eraserhead",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Wild at Heart",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Lost Highway",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Elephant Man",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Dune 1984",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Magnolia",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Boogie Nights",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Hard Eight",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Punch-Drunk Love",
+    "services": [
+      "Starz",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Inherent Vice",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Phantom Thread",
+    "services": [
+      "HBO Max",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Fargo",
+    "services": [
+      "Hulu",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Blood Simple",
+    "services": [
+      "Hulu",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Barton Fink",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Miller's Crossing",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Big Lebowski",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Raising Arizona",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "True Grit",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Inside Llewyn Davis",
+    "services": [
+      "Starz",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "A Serious Man",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Burn After Reading",
+    "services": [
+      "Tubi",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "O Brother Where Art Thou",
+    "services": [
+      "Tubi",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Adaptation",
+    "services": [
+      "Tubi",
+      "Starz"
+    ]
+  },
+  {
+    "name": "Being John Malkovich",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Eternal Sunshine of the Spotless Mind",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Synecdoche New York",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Anomalisa",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Squid and the Whale",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Rushmore",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Royal Tenenbaums",
+    "services": [
+      "Disney+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Life Aquatic",
+    "services": [
+      "Disney+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Moonrise Kingdom",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Fantastic Mr. Fox",
+    "services": [
+      "Disney+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Isle of Dogs",
+    "services": [
+      "Disney+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Her",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Being There",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "As Good as It Gets",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "American Beauty",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Ordinary People",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Kramer vs Kramer",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Deer Hunter",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Coming Home",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Midnight Express",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Atlantic City",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "My Dinner with Andre",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Grey Gardens",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Sherman's March",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Harlan County USA",
+    "services": [
+      "Mubi"
+    ]
   }
 ]
