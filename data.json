@@ -163,7 +163,8 @@
     "name": "There Will Be Blood",
     "services": [
       "Peacock",
-      "Tubi"
+      "Tubi",
+      "Prime Video"
     ]
   },
   {
@@ -1020,7 +1021,8 @@
     "name": "Midnight Cowboy",
     "services": [
       "Tubi",
-      "Pluto TV"
+      "Pluto TV",
+      "Prime Video"
     ]
   },
   {
@@ -1147,49 +1149,57 @@
   {
     "name": "Annie Hall",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Mubi"
     ]
   },
   {
     "name": "Manhattan",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Mubi"
     ]
   },
   {
     "name": "Stardust Memories",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Mubi"
     ]
   },
   {
     "name": "Hannah and Her Sisters",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Mubi"
     ]
   },
   {
     "name": "Crimes and Misdemeanors",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Mubi"
     ]
   },
   {
     "name": "The Purple Rose of Cairo",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Mubi"
     ]
   },
   {
     "name": "Zelig",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Mubi"
     ]
   },
   {
     "name": "Husbands and Wives",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Mubi"
     ]
   },
   {
@@ -1244,7 +1254,8 @@
   {
     "name": "Wild at Heart",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Mubi"
     ]
   },
   {
@@ -1272,20 +1283,23 @@
   {
     "name": "Magnolia",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Prime Video"
     ]
   },
   {
     "name": "Boogie Nights",
     "services": [
       "HBO Max",
-      "Tubi"
+      "Tubi",
+      "Prime Video"
     ]
   },
   {
     "name": "Hard Eight",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Prime Video"
     ]
   },
   {
@@ -1298,14 +1312,16 @@
   {
     "name": "Inherent Vice",
     "services": [
-      "HBO Max"
+      "HBO Max",
+      "Tubi"
     ]
   },
   {
     "name": "Phantom Thread",
     "services": [
       "HBO Max",
-      "Peacock"
+      "Peacock",
+      "Prime Video"
     ]
   },
   {
@@ -1404,7 +1420,8 @@
     "name": "Being John Malkovich",
     "services": [
       "Tubi",
-      "Pluto TV"
+      "Pluto TV",
+      "Starz"
     ]
   },
   {
@@ -1418,14 +1435,16 @@
     "name": "Synecdoche New York",
     "services": [
       "Tubi",
-      "Mubi"
+      "Mubi",
+      "Starz"
     ]
   },
   {
     "name": "Anomalisa",
     "services": [
       "Tubi",
-      "Mubi"
+      "Mubi",
+      "Prime Video"
     ]
   },
   {
@@ -1501,7 +1520,8 @@
     "name": "American Beauty",
     "services": [
       "Tubi",
-      "Pluto TV"
+      "Pluto TV",
+      "Prime Video"
     ]
   },
   {
@@ -1622,7 +1642,8 @@
   {
     "name": "Rosemary's Baby",
     "services": [
-      "Paramount+"
+      "Paramount+",
+      "Tubi"
     ]
   },
   {
@@ -1713,31 +1734,37 @@
   {
     "name": "The Master",
     "services": [
-      "Peacock"
+      "Peacock",
+      "Tubi",
+      "Prime Video"
     ]
   },
   {
     "name": "Punch Drunk Love",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Prime Video"
     ]
   },
   {
     "name": "Requiem for a Dream",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Prime Video"
     ]
   },
   {
     "name": "Pi",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Prime Video"
     ]
   },
   {
     "name": "Black Swan",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Prime Video"
     ]
   },
   {
@@ -1757,19 +1784,23 @@
   {
     "name": "Noah",
     "services": [
-      "Paramount+"
+      "Paramount+",
+      "Tubi",
+      "Prime Video"
     ]
   },
   {
     "name": "Twin Peaks Fire Walk with Me",
     "services": [
-      "Mubi"
+      "Mubi",
+      "Tubi"
     ]
   },
   {
     "name": "Inland Empire",
     "services": [
-      "Mubi"
+      "Mubi",
+      "Tubi"
     ]
   },
   {
@@ -5440,7 +5471,8 @@
   {
     "name": "Pinocchio 2022",
     "services": [
-      "Disney+"
+      "Disney+",
+      "Netflix"
     ]
   },
   {
@@ -9355,6 +9387,2209 @@
     "name": "Japon 2002",
     "services": [
       "Mubi"
+    ]
+  },
+  {
+    "name": "The Talented Mr Ripley",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "I'm Thinking of Ending Things",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Charlie Kaufman Eternal Sunshine",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Human Nature",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Confessions of a Dangerous Mind",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Fountain",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Wrestler",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Mother Darren Aronofsky",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Broadway Danny Rose",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Radio Days",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Another Woman",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Alice",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Shadows and Fog",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Manhattan Murder Mystery",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Bullets Over Broadway",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Mighty Aphrodite",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Everyone Says I Love You",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Deconstructing Harry",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Celebrity",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Sweet and Lowdown",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Small Time Crooks",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Curse of the Jade Scorpion",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Hollywood Ending",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Anything Else",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Melinda and Melinda",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Scoop",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Cassandra's Dream",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Whatever Works",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "You Will Meet a Tall Dark Stranger",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "To Rome with Love",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Magic in the Moonlight",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Irrational Man",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Cafe Society",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Wonder Wheel",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "A Rainy Day in New York",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Rifkin's Festival",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Coup de Chance",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Interiors",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "September",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Another Woman 1988",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "A Midsummer Night's Sex Comedy",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Take the Money and Run",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Bananas",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Everything You Always Wanted to Know",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Sleeper",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Love and Death",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Front",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Tenant",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Repulsion",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Knife in the Water",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Fearless Vampire Killers",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "What",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Ninth Gate",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Ghost Writer",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Carnage",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Oliver Twist 2005",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Tess",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Macbeth 1971",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Pirates",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Bitter Moon",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Death and the Maiden",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Bound",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Matrix Reloaded",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Matrix Revolutions",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Matrix Resurrections",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Cloud Atlas",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Speed Racer",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Jupiter Ascending",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Sense8 The Movie",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "V for Vendetta",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Wachowskis Ninja Assassin",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Straight Story",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Desperate Hours",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Premonition",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Ronin",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Heat 1995",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Collateral",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Ali",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Insider",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Miami Vice",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Public Enemies",
+    "services": [
+      "Tubi",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Thief",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Manhunter",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Last of the Mohicans",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Blackhat",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Ferrari",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Elf",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Anchorman",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Step Brothers",
+    "services": [
+      "Tubi",
+      "Starz"
+    ]
+  },
+  {
+    "name": "Talladega Nights",
+    "services": [
+      "Tubi",
+      "Starz"
+    ]
+  },
+  {
+    "name": "Blades of Glory",
+    "services": [
+      "Tubi",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Semi-Pro",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Other Guys",
+    "services": [
+      "Tubi",
+      "Starz"
+    ]
+  },
+  {
+    "name": "The Campaign",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Get Hard",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Daddy's Home",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Daddy's Home 2",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Holmes and Watson",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Eurovision Song Contest",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Dick Johnson Is Dead",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "My Octopus Teacher",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "13th",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Crip Camp",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "American Factory",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Last Dance",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Making a Murderer",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Wild Wild Country",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Keepers",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Evil Genius",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Staircase",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "The Jinx",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Capturing the Friedmans",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Brother's Keeper",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Paradise Lost",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Stevie",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Hoop Dreams",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Roger and Me",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Bowling for Columbine",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Fahrenheit 911",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Sicko",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Capitalism A Love Story",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Where to Invade Next",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Big One",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Canadian Bacon",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Manufacturing Consent",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Corporation",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "An Inconvenient Truth",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Food Inc",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Super Size Me",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Super Size Me 2",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Act of Killing",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Look of Silence",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "S21 The Khmer Rouge Killing Machine",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Missing Picture",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "First They Killed My Father",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Waltz with Bashir",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Gatekeepers",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "5 Broken Cameras",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Square 2013",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Winter on Fire",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Icarus",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Two Popes",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Trial of the Chicago 7",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Selma",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Detroit",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "BlacKkKlansman",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "If Beale Street Could Talk",
+    "services": [
+      "Hulu",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Moonlight",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Fences",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Hidden Figures",
+    "services": [
+      "Disney+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Marshall",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Just Mercy",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The United States vs Billie Holiday",
+    "services": [
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Judas",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "The Woman King",
+    "services": [
+      "Netflix",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Harriet",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "42",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Ray",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Walk the Line",
+    "services": [
+      "Tubi",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "I Tonya",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "services": [
+      "Disney+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Rocketman",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Elvis",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Judy",
+    "services": [
+      "Starz",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Judy and Punch",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Marlena",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Piaf",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "La Vie en Rose",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Eddy",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Blinded by the Light",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Yesterday",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Across the Universe",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Almost Famous",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "That Thing You Do",
+    "services": [
+      "Disney+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "High Fidelity",
+    "services": [
+      "Tubi",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Nick and Norah's Infinite Playlist",
+    "services": [
+      "Tubi",
+      "Starz"
+    ]
+  },
+  {
+    "name": "Begin Again",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Can You Feel It",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Florence and the Machine Live",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Alanis Morissette Jagged Little Pill",
+    "services": [
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "Woodstock 1969",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Gimme Shelter",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Don't Look Back",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "No Direction Home",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "I'm Not There",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Rolling Thunder Revue",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Cocksucker Blues",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Last Waltz",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Stop Making Sense",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Sign O the Times",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Ziggy Stardust and the Spiders from Mars",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Monterey Pop",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Woodstock 99 Peace Love and Rage",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Amazing Grace",
+    "services": [
+      "Prime Video",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "20 Feet from Stardom",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Searching for the Wrong Eyed Jesus",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Dig",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Mayor of the Sunset Strip",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "DIG 2004",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Shut Up and Sing",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Some Kind of Monster",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Anvil The Story of Anvil",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Wrecking Crew",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Decline of Western Civilization",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Decline Part II",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Decline Part III",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Penelope Spheeris Wayne's World",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Singles",
+    "services": [
+      "Tubi",
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Reality Bites",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Clerks",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Clerks II",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Clerks III",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Chasing Amy",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Mallrats",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Dogma",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Jay and Silent Bob Strike Back",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Jay and Silent Bob Reboot",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Red State",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Cop Out",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Zack and Miri",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Jersey Girl",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Yoga Hosers",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Tusk",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Spirit",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Kick-Ass",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Kick-Ass 2",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Super",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Defendor",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Special 2006",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "My Super Ex-Girlfriend",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Mystery Men",
+    "services": [
+      "Tubi",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "The Toxic Avenger",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Class of Nuke Em High",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Surf Nazis Must Die",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Combat Shock",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Street Trash",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Basket Case",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Basket Case 2",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Basket Case 3",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Brain Damage",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Frankenhooker",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Bad Taste",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Meet the Feebles",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Dead Alive",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Frighteners",
+    "services": [
+      "Tubi",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Braindead",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "King Kong 2005",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Lovely Bones",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "They Shall Not Grow Old",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Guillermo del Toro Cabinet of Curiosities",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Smile 2022",
+    "services": [
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "Scream 2022",
+    "services": [
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "Bodies Bodies Bodies",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Fresh",
+    "services": [
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Prey 2022",
+    "services": [
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Nope 2022",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "X 2022",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Pearl 2022",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Men 2022",
+    "services": [
+      "Prime Video",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Hatching",
+    "services": [
+      "Shudder",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Dashcam 2021",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Sissy 2022",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Glorious 2022",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Deadstream 2022",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Appendage 2023",
+    "services": [
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Run Rabbit Run 2023",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Enys Men 2022",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Skinamarink 2022",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Boogeyman",
+    "services": [
+      "Hulu",
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Cobweb",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Sacrifice Game",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Thanksgiving",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Suitable Flesh 2023",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Late Night with the Devil 2023",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Immaculate",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "MaXXXine",
+    "services": [
+      "Prime Video",
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Longlegs",
+    "services": [
+      "Hulu",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Strange Darling",
+    "services": [
+      "Hulu"
+    ]
+  },
+  {
+    "name": "I Saw the TV Glow",
+    "services": [
+      "Prime Video",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Love Lies Bleeding",
+    "services": [
+      "Prime Video",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "His Three Daughters",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Janet Planet",
+    "services": [
+      "Mubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Between the Temples",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Problemista",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Zone of Interest",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "A Haunting in Venice",
+    "services": [
+      "Disney+",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Indiana Jones Dial of Destiny",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Elemental 2023",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Wish 2023",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "The Marvels",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Ant-Man Quantumania",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Guardians of the Galaxy Vol 3",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Secret Invasion",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Loki Season 2",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Echo",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Agatha All Along",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "What If Season 3",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "The Creator 2023",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Napoleon 2023",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Killers of the Flower Moon 2023",
+    "services": [
+      "Apple TV+"
+    ]
+  },
+  {
+    "name": "Foe 2023",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Saltburn 2023",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Cabrini",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Idea of You",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Road House 2024",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Monkey Man",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Civil War",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Kingdom of the Planet of the Apes",
+    "services": [
+      "Hulu",
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Twisters",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Alien Romulus",
+    "services": [
+      "Hulu",
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Deadpool and Wolverine",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Inside Out 2",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Moana 2",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Mufasa",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Wicked",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Gladiator II",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Kraven the Hunter",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Venom The Last Dance",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Joker Folie a Deux",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Beetlejuice Beetlejuice",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Transformers One",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Wild Robot",
+    "services": [
+      "Peacock",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Lee",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Conclave",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Brutalist",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Nickel Boys",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "A Complete Unknown",
+    "services": [
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Emilia Perez",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Substance",
+    "services": [
+      "Mubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Anora",
+    "services": [
+      "Hulu",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "September 5",
+    "services": [
+      "Paramount+",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Hard Truths",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Queer",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Flow",
+    "services": [
+      "Netflix",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Maria",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Room Next Door",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Nosferatu 2024",
+    "services": [
+      "Peacock",
+      "Prime Video"
     ]
   }
 ]
