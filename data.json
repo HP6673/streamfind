@@ -625,7 +625,8 @@
   {
     "name": "Roma",
     "services": [
-      "Netflix"
+      "Netflix",
+      "Mubi"
     ]
   },
   {
@@ -1727,7 +1728,9 @@
   {
     "name": "Mother",
     "services": [
-      "Paramount+"
+      "Paramount+",
+      "Tubi",
+      "Mubi"
     ]
   },
   {
@@ -1751,7 +1754,8 @@
   {
     "name": "Cronos",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Mubi"
     ]
   },
   {
@@ -1769,7 +1773,8 @@
   {
     "name": "Crimson Peak",
     "services": [
-      "Peacock"
+      "Peacock",
+      "Tubi"
     ]
   },
   {
@@ -1781,7 +1786,9 @@
   {
     "name": "Nightmare Alley",
     "services": [
-      "HBO Max"
+      "HBO Max",
+      "Hulu",
+      "Disney+"
     ]
   },
   {
@@ -1848,13 +1855,15 @@
   {
     "name": "Cache",
     "services": [
-      "Mubi"
+      "Mubi",
+      "Tubi"
     ]
   },
   {
     "name": "The White Ribbon",
     "services": [
-      "Mubi"
+      "Mubi",
+      "Tubi"
     ]
   },
   {
@@ -3628,6 +3637,2920 @@
     "name": "Fancy Dance",
     "services": [
       "Apple TV+"
+    ]
+  },
+  {
+    "name": "Scream 2",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Scream 3",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Scream 4",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Halloween",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Halloween II",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Halloween H20",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Halloween Kills",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Friday the 13th",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Friday the 13th Part 2",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "A Nightmare on Elm Street",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "A Nightmare on Elm Street 2",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Nightmare on Elm Street 3",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Child's Play",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Child's Play 2",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Bride of Chucky",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Seed of Chucky",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Texas Chain Saw Massacre",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Texas Chainsaw Massacre 2",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Hills Have Eyes",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Candyman",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Candyman Farewell to the Flesh",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Conjuring",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Conjuring 2",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Annabelle",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Annabelle Creation",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Nun",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Curse of La Llorona",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Insidious",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Insidious Chapter 2",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Insidious Chapter 3",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Paranormal Activity",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Paranormal Activity 2",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Paranormal Activity 3",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Sinister",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Sinister 2",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Purge",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Purge Anarchy",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The First Purge",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Forever Purge",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Ouija",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Ouija Origin of Evil",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Witch",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Ritual",
+    "services": [
+      "Netflix",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Haunt",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Autopsy of Jane Doe",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "It Follows",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Guest",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "You're Next",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The House of the Devil",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Sacrament",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "V/H/S",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "V/H/S 2",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "V/H/S 94",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "V/H/S 99",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "V/H/S 85",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Creep",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Creep 2",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Taking of Deborah Logan",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "As Above So Below",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Oculus",
+    "services": [
+      "Prime Video",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Housebound",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Babadook",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Bone Tomahawk",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Green Room",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Starry Eyes",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Loved Ones",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Pontypool",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Under the Shadow",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Skull The Mask",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Head Hunter",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Await Further Instructions",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Extra Ordinary",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Daniel Isn't Real",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Hunter Hunter",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Anything for Jackson",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Wretched",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Dark and the Wicked",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Scare Me",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Boy Behind the Door",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Superhost",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Sadness",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Power",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Medium",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Last Thing Mary Saw",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Feast",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Lamb",
+    "services": [
+      "Prime Video",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Amusement Park",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Motherly",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "12 Hour Shift",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Lucky",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Maid",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Jakob's Wife",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Evil Next Door",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Kandisha",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "There's Someone Inside Your House",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Fear Street",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Conjuring The Devil Made Me Do It",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Malignant",
+    "services": [
+      "HBO Max",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "No One Gets Out Alive",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Nightbooks",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Army of Darkness",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Evil Dead II",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "The Evil Dead",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Evil Dead 2013",
+    "services": [
+      "Starz",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Night of the Living Dead",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Dawn of the Dead",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Day of the Dead",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "28 Days Later",
+    "services": [
+      "Tubi",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "28 Weeks Later",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Train to Busan",
+    "services": [
+      "Tubi",
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Peninsula",
+    "services": [
+      "Shudder",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Raid",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Raid 2",
+    "services": [
+      "Netflix",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Oldboy",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "I Saw the Devil",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "A Tale of Two Sisters",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Memories of Murder",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Audition",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Battle Royale",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Ichi the Killer",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Ringu",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Ju-On The Grudge",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Pulse",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Dark Water",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Noroi The Curse",
+    "services": [
+      "Shudder"
+    ]
+  },
+  {
+    "name": "Marebito",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Hausu",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Cure",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Onibaba",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Kwaidan",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Ugetsu",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Rashomon",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Seven Samurai",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Yojimbo",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Sanjuro",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "High and Low",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Ikiru",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Throne of Blood",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Hidden Fortress",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Red Beard",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Ran",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Dreams",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Bad Sleep Well",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Dodes Ka Den",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Sanshiro Sugata",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Stray Dog",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Drunken Angel",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Scandal",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Idiot",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "I Live in Fear",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Record of a Living Being",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Lower Depths",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Quiet Duel",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Wild Strawberries",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Seventh Seal",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Winter Light",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Through a Glass Darkly",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Cries and Whispers",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Scenes from a Marriage",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Virgin Spring",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Persona",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Hour of the Wolf",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Shame",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Passion of Anna",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Face to Face",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Autumn Sonata",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Fanny and Alexander",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Saraband",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Emigrants",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The New Land",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Amarcord",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "La Dolce Vita",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "8 1/2",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Satyricon",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Casanova",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "And the Ship Sails On",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Intervista",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "City of Women",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Clowns",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Juliet of the Spirits",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The White Sheik",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "I Vitelloni",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Nights of Cabiria",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "La Strada",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Il Grido",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "L'Avventura",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "La Notte",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "L'Eclisse",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Red Desert",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Blowup",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Zabriskie Point",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Passenger",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Identification of a Woman",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Story of a Love Affair",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Chronicle of a Love",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Bicycle Thieves",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Rome Open City",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Paisan",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Germany Year Zero",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Umberto D",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Shoeshine",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Stromboli",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Journey to Italy",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Viaggio in Italia",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Flowers of St Francis",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Europa 51",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "General Della Rovere",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Rocco and His Brothers",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Leopard",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Salvatore Giuliano",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Hands Over the City",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Battle of Algiers",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Investigation of a Citizen",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Cinema Paradiso",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Il Postino",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Life Is Beautiful",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Malena",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Great Beauty",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Youth",
+    "services": [
+      "Mubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The New Pope",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "My Brilliant Friend",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "The Consequences of Love",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Best of Youth",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "I Am Love",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "We Have a Pope",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Gomorrah",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Dogman",
+    "services": [
+      "Mubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Piranhas",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Traitor",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Human Voice",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Pedro Almodovar Short Films",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "All About My Mother",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Talk to Her",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Bad Education",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Volver",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Broken Embraces",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Skin I Live In",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "I'm So Excited",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Julieta",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Parallel Mothers",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Flower of My Secret",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Live Flesh",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Kika",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "High Heels",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Tie Me Up Tie Me Down",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Women on the Verge",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Law of Desire",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Matador",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Dark Habits",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Pepi Luci Bom",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Labyrinth of Passion",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "What Have I Done to Deserve This",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Spirit of the Beehive",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Cria Cuervos",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Peppermint Frappe",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Hunt 1966",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Furtivos",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "El Sur",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Quince Tree Sun",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Belle Epoque",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Open Your Eyes",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Others",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Pan's Labyrinth",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Devil's Backbone",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Mimic",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Blade II",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Hellboy",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Hellboy II",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Pacific Rim",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Pacific Rim Uprising",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Shape of Water",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Pinocchio 2022",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Underwater 2020",
+    "services": [
+      "Tubi",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "The Mummy",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Mummy Returns",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Van Helsing",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Dracula Untold",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Frankenstein 1931",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Bride of Frankenstein",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Dracula 1931",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Wolf Man 1941",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Creature from the Black Lagoon",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Invisible Man 1933",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Abbott and Costello Meet Frankenstein",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Phantom of the Opera 1925",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Nosferatu 1922",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Cabinet of Dr Caligari",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Metropolis",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "M 1931",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Testament of Dr Mabuse",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Spies",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Der Golem",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Nosferatu 1979",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The American Friend",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Kings of the Road",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Alice in the Cities",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Wrong Move",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Goalkeeper's Fear of the Penalty",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Paris Texas",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Wings of Desire",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Faraway So Close",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Until the End of the World",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Lisbon Story",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The State of Things",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Lightning Over Water",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Nick's Film",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Hammett",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Tin Drum",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Marriage of Maria Braun",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Bitter Tears of Petra von Kant",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Ali Fear Eats the Soul",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Fox and His Friends",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "In a Year with 13 Moons",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Beware of a Holy Whore",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Merchant of Four Seasons",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Chinese Roulette",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Satan's Brew",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "World on a Wire",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Berlin Alexanderplatz",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Querelle",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Lola",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Veronika Voss",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Germany in Autumn",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Aguirre Wrath of God",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Fitzcarraldo",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Woyzeck",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Nosferatu the Vampyre",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Stroszek",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Enigma of Kaspar Hauser",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Heart of Glass",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Cobra Verde",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Lessons of Darkness",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Grizzly Man",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Cave of Forgotten Dreams",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Into the Abyss",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Encounters at the End of the World",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "My Best Fiend",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Little Dieter Needs to Fly",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Wheel of Time",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Happy People",
+    "services": [
+      "Amazon Prime Video"
+    ]
+  },
+  {
+    "name": "Funny Games 1997",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Funny Games 2007",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Piano Teacher",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Castle",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Kingdom",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Breaking the Waves",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Idiots",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Dancer in the Dark",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Dogville",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Manderlay",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Melancholia",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Antichrist",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Nymphomaniac Vol I",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Nymphomaniac Vol II",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The House That Jack Built",
+    "services": [
+      "Tubi",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Element of Crime",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Epidemic",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Europa",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Zentropa",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Boss of It All",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Festen",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Mifune",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Celebration",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Italian for Beginners",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Open Hearts",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Reconstruction",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "After the Wedding",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "In a Better World",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "A Royal Affair",
+    "services": [
+      "Mubi",
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Riders of Justice",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Another Round",
+    "services": [
+      "Mubi",
+      "Hulu"
+    ]
+  },
+  {
+    "name": "The Hunt 2012",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Submarino",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Noi the Albino",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Rams",
+    "services": [
+      "Prime Video",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Lamb 2021",
+    "services": [
+      "Shudder",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "And Breathe Normally",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "101 Reykjavik",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Jar City",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Reykjavik Rotterdam",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Deep",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The County",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Beautiful Beings",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "True North",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Le Quattro Volte",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Lazzaro Felice",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "The Wonders",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Martin Eden",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Piranesi",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Ariaferma",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Hive",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Aga",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Directions",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Father Who Moves Mountains",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Sieranevada",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Graduation",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Beyond the Hills",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "4 Months 3 Weeks 2 Days",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Death of Mr Lazarescu",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "12:08 East of Bucharest",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Police Adjective",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Tuesday After Christmas",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Aferim",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Whistlers",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Uppercase Print",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Bad Luck Banging or Loony Porn",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Wheel",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Totem",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "New Order",
+    "services": [
+      "Hulu",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Identifying Features",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "I Carry You with Me",
+    "services": [
+      "Hulu",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Chambermaid",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Noche de Fuego",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Tempestad",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Battle Hymn",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Leap",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Untamed",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Madres",
+    "services": [
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "Here and There",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Lake Tahoe",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Post Tenebras Lux",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Carlos Reygadas Silent Light",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Battle in Heaven",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Japon",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Neon Bull",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Invisible Life of Euridice Gusmao",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Neighboring Sounds",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Aquarius",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Good Manners",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Milk of Sorrow",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Embrace of the Serpent",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Birds of Passage",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "La Ciénaga",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Headless Woman",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Liverpool",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Zama",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "El Estudiante",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Distinguished Citizen",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Wild Tales",
+    "services": [
+      "Netflix",
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Relatos Salvajes",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Whisky",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Pope's Toilet",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Hiroshima Mon Amour",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Last Year at Marienbad",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Muriel",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Je T'aime Je T'aime",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Mon Oncle d'Amerique",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Providence",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Le Amour à Mort",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Smoking No Smoking",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Same Old Song",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Wild Grass",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "You Ain't Seen Nothin Yet",
+    "services": [
+      "Mubi"
     ]
   }
 ]
