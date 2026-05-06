@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Inception",
+    "services": [
+      "Netflix",
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "The Dark Knight",
+    "services": [
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Interstellar",
+    "services": [
+      "Netflix",
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "services": [
+      "Netflix",
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Pulp Fiction",
+    "services": [
+      "Tubi",
+      "Pluto TV",
+      "Peacock"
+    ]
+  },
+  {
+    "name": "The Godfather",
+    "services": [
+      "Paramount+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Forrest Gump",
+    "services": [
+      "Paramount+",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Matrix",
+    "services": [
+      "Netflix",
+      "HBO Max",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Goodfellas",
+    "services": [
+      "Netflix",
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Schindler's List",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Fight Club",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Silence of the Lambs",
+    "services": [
+      "Peacock",
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Avengers: Endgame",
+    "services": [
+      "Disney+",
+      "ESPN+"
+    ]
+  },
+  {
+    "name": "Titanic",
+    "services": [
+      "Paramount+",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "Gladiator",
+    "services": [
+      "Paramount+",
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Lion King",
+    "services": [
+      "Disney+"
+    ]
+  },
+  {
+    "name": "Jurassic Park",
+    "services": [
+      "Peacock",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Home Alone",
+    "services": [
+      "Disney+",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Back to the Future",
+    "services": [
+      "Peacock",
+      "AMC+"
+    ]
+  },
+  {
+    "name": "The Wolf of Wall Street",
+    "services": [
+      "Paramount+",
+      "Tubi",
+      "Pluto TV"
+    ]
+  }
+]
