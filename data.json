@@ -906,7 +906,8 @@
     "name": "Apocalypse Now",
     "services": [
       "Netflix",
-      "Prime Video"
+      "Prime Video",
+      "Paramount+"
     ]
   },
   {
@@ -964,14 +965,16 @@
     "name": "Raging Bull",
     "services": [
       "Peacock",
-      "Tubi"
+      "Tubi",
+      "Netflix"
     ]
   },
   {
     "name": "Taxi Driver",
     "services": [
       "Starz",
-      "Tubi"
+      "Tubi",
+      "Netflix"
     ]
   },
   {
@@ -1059,7 +1062,8 @@
     "name": "One Flew Over the Cuckoos Nest",
     "services": [
       "Netflix",
-      "Tubi"
+      "Tubi",
+      "Pluto TV"
     ]
   },
   {
@@ -1247,7 +1251,8 @@
     "name": "The Elephant Man",
     "services": [
       "Tubi",
-      "Mubi"
+      "Mubi",
+      "Paramount+"
     ]
   },
   {
@@ -1326,7 +1331,8 @@
     "name": "The Big Lebowski",
     "services": [
       "Peacock",
-      "Tubi"
+      "Tubi",
+      "Hulu"
     ]
   },
   {
@@ -1346,20 +1352,23 @@
     "name": "Inside Llewyn Davis",
     "services": [
       "Starz",
-      "Tubi"
+      "Tubi",
+      "Netflix"
     ]
   },
   {
     "name": "A Serious Man",
     "services": [
-      "Tubi"
+      "Tubi",
+      "Netflix"
     ]
   },
   {
     "name": "Burn After Reading",
     "services": [
       "Tubi",
-      "Peacock"
+      "Peacock",
+      "Hulu"
     ]
   },
   {
@@ -1543,6 +1552,352 @@
   },
   {
     "name": "Harlan County USA",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Se7en",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "The Prestige",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Memento",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "2001 A Space Odyssey",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Paths of Glory",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Spartacus",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Doctor Zhivago",
+    "services": [
+      "Starz"
+    ]
+  },
+  {
+    "name": "Rosemary's Baby",
+    "services": [
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "The Godfather Part II",
+    "services": [
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "Scarface",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Cape Fear",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Platoon",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Wall Street",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Broadcast News",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Millers Crossing",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Uncut Gems",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Good Time",
+    "services": [
+      "Netflix"
+    ]
+  },
+  {
+    "name": "Heaven Knows What",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Tangerine",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Florida Project",
+    "services": [
+      "Tubi",
+      "Pluto TV"
+    ]
+  },
+  {
+    "name": "First Reformed",
+    "services": [
+      "Tubi",
+      "Prime Video"
+    ]
+  },
+  {
+    "name": "The Master",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Punch Drunk Love",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Requiem for a Dream",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Pi",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Black Swan",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Wrestler",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Mother",
+    "services": [
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "Noah",
+    "services": [
+      "Paramount+"
+    ]
+  },
+  {
+    "name": "Twin Peaks Fire Walk with Me",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Inland Empire",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Cronos",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The Devils Backbone",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Pans Labyrinth",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Crimson Peak",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Shape of Water",
+    "services": [
+      "Hulu"
+    ]
+  },
+  {
+    "name": "Nightmare Alley",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Y Tu Mama Tambien",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Amores Perros",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Children of Men",
+    "services": [
+      "Peacock"
+    ]
+  },
+  {
+    "name": "Gravity",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "The Tree of Life",
+    "services": [
+      "Mubi",
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Days of Heaven",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Thin Red Line",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "The New World",
+    "services": [
+      "Tubi"
+    ]
+  },
+  {
+    "name": "Knight of Cups",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Voyage of Time",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Cache",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The White Ribbon",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Funny Games",
+    "services": [
+      "HBO Max"
+    ]
+  },
+  {
+    "name": "Amour",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Code Unknown",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Time of the Wolf",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Happy End",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "71 Fragments of a Chronology of Chance",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "The Seventh Continent",
+    "services": [
+      "Mubi"
+    ]
+  },
+  {
+    "name": "Benny's Video",
     "services": [
       "Mubi"
     ]
